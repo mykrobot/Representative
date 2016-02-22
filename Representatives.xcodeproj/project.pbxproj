@@ -14,6 +14,11 @@
 		01AD26151BE171D9009BF4D2 /* RepresentativesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD26141BE171D9009BF4D2 /* RepresentativesTests.swift */; };
 		01AD26201BE171D9009BF4D2 /* RepresentativesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD261F1BE171D9009BF4D2 /* RepresentativesUITests.swift */; };
 		01AD262E1BE17215009BF4D2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD262D1BE17215009BF4D2 /* SearchViewController.swift */; };
+		B4615A9F1C7673DC00DC443A /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4615A9E1C7673DC00DC443A /* Representative.swift */; };
+		B4615AA11C767A5D00DC443A /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4615AA01C767A5D00DC443A /* NetworkController.swift */; };
+		B4615AA31C76807D00DC443A /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4615AA21C76807D00DC443A /* RepresentativeController.swift */; };
+		B4615AA51C76870600DC443A /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4615AA41C76870600DC443A /* ResultsTableViewController.swift */; };
+		B4615AA71C76873F00DC443A /* RepresentativeDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4615AA61C76873F00DC443A /* RepresentativeDetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		01AD261F1BE171D9009BF4D2 /* RepresentativesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativesUITests.swift; sourceTree = "<group>"; };
 		01AD26211BE171D9009BF4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01AD262D1BE17215009BF4D2 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B4615A9E1C7673DC00DC443A /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		B4615AA01C767A5D00DC443A /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		B4615AA21C76807D00DC443A /* RepresentativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
+		B4615AA41C76870600DC443A /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		B4615AA61C76873F00DC443A /* RepresentativeDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeDetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				01AD25FF1BE171D9009BF4D2 /* AppDelegate.swift */,
+				B4615AA01C767A5D00DC443A /* NetworkController.swift */,
+				B4615A9E1C7673DC00DC443A /* Representative.swift */,
+				B4615AA21C76807D00DC443A /* RepresentativeController.swift */,
 				01AD262D1BE17215009BF4D2 /* SearchViewController.swift */,
+				B4615AA61C76873F00DC443A /* RepresentativeDetailTableViewController.swift */,
+				B4615AA41C76870600DC443A /* ResultsTableViewController.swift */,
 				01AD26031BE171D9009BF4D2 /* Main.storyboard */,
 				01AD26061BE171D9009BF4D2 /* Assets.xcassets */,
 				01AD26081BE171D9009BF4D2 /* LaunchScreen.storyboard */,
@@ -256,7 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4615AA51C76870600DC443A /* ResultsTableViewController.swift in Sources */,
+				B4615AA11C767A5D00DC443A /* NetworkController.swift in Sources */,
 				01AD262E1BE17215009BF4D2 /* SearchViewController.swift in Sources */,
+				B4615AA71C76873F00DC443A /* RepresentativeDetailTableViewController.swift in Sources */,
+				B4615AA31C76807D00DC443A /* RepresentativeController.swift in Sources */,
+				B4615A9F1C7673DC00DC443A /* Representative.swift in Sources */,
 				01AD26001BE171D9009BF4D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
