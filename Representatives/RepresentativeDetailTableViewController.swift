@@ -1,5 +1,5 @@
 //
-//  RepressentitiveDetailTableViewController.swift
+//  RepresentativeDetailTableViewController.swift
 //  Representatives
 //
 //  Created by Michael Mecham on 2/18/16.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class RepressentitiveDetailTableViewController: UITableViewController {
+class RepresentativeDetailTableViewController: UITableViewController {
 
-    var representitive : Representitive?
+    var representative : Representative?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +37,7 @@ class RepressentitiveDetailTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 
-        guard let rep = representitive else {
+        guard let rep = representative else {
             return tableView.dequeueReusableCellWithIdentifier("nameCell", forIndexPath: indexPath)
         }
         switch indexPath.row {

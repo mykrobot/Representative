@@ -1,5 +1,5 @@
 //
-//  RepresentitiveController.swift
+//  RepresentativeController.swift
 //  Representatives
 //
 //  Created by Michael Mecham on 2/18/16.

@@ -1,5 +1,5 @@
 //
-//  Representitive.swift
+//  Representative.swift
 //  Representatives
 //
 //  Created by Michael Mecham on 2/18/16.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Representitive {
+struct Representative {
     
     private let kName = "name"
     private let kParty = "party"
